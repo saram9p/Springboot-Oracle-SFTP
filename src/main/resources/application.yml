@@ -1,0 +1,35 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+      enabled: true
+    
+spring:
+  mvc:
+    view: # 뷰리졸버 설정
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: saram
+    password: 1234
+    
+  jpa:
+    properties:
+      hibernate:
+        globally_quoted_identifiers : true # DB 예약어를 column 으로 사용하는 방법
+    open-in-view: true
+    hibernate:
+      ddl-auto: update # create, update, none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl # 변수 이름을 그대로 사용
+    show-sql: true
+
+  security:
+    user:
+      name: saram
+      password: 1234   
