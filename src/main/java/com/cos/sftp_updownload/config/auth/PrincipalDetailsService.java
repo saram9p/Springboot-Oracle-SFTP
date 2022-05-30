@@ -5,8 +5,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.cos.sftp_updownload.domain.User;
-import com.cos.sftp_updownload.domain.UserRepository;
+import com.cos.sftp_updownload.domain.user.User;
+import com.cos.sftp_updownload.domain.user.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 

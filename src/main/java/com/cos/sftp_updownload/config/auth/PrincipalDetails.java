@@ -7,7 +7,7 @@ import java.util.Map;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.cos.sftp_updownload.domain.User;
+import com.cos.sftp_updownload.domain.user.User;
 
 import lombok.Getter;
 import lombok.Setter;

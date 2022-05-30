@@ -1,4 +1,4 @@
-package com.cos.sftp_updownload.domain;
+package com.cos.sftp_updownload.domain.user;
 
 import java.time.LocalDateTime;
 

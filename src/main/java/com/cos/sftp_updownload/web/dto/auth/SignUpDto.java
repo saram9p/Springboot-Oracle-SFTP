@@ -3,7 +3,7 @@ package com.cos.sftp_updownload.web.dto.auth;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-import com.cos.sftp_updownload.domain.User;
+import com.cos.sftp_updownload.domain.user.User;
 
 import lombok.Getter;
 import lombok.Setter;

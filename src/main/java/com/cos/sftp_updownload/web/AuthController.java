@@ -13,7 +13,7 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.cos.sftp_updownload.domain.User;
+import com.cos.sftp_updownload.domain.user.User;
 import com.cos.sftp_updownload.service.AuthService;
 import com.cos.sftp_updownload.web.dto.auth.SignUpDto;
 
